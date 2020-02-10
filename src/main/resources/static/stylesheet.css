@@ -1,0 +1,116 @@
+
+
+.active {
+    background-color: #4CAF50;
+}
+ingredients{
+    margin: 50px;
+    padding: 50px;
+}
+column{
+    background: white;
+    border: 20px solid rgb(0, 0, 0.3);
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+.wrapper {
+    margin-top: 450px;
+    text-align: center;
+    /*margin: auto;*/
+}
+navbar{
+    color: lightslategray;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+header{
+    background-image: url("greencurry.jpg");
+}
+button{
+    height:20px;
+    width:100px;
+    margin: -20px -50px;
+    position:relative;
+    top:50%;
+    left:50%;
+    align-content: center;
+
+}
+
+
+h1{
+    text-align: left;
+    color: lightslategray;
+}
+column{
+    size: auto;
+    height: auto;
+}
+body,html {
+    background-image: url("background6.jpg");
+    background-repeat: no-repeat;
+    size: auto;
+    height: auto;
+    background-size: cover;
+    align-content: center;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #464646;
+}
+greencurry{
+    width: 150px;
+    height: 150px;
+    border: 0;
+    align-content: stretch;
+}
+grilled{
+
+
+}
+images{
+    display: inline-block;
+}
+img{
+    align-content: center;
+    width: 200px;
+    height: 200px;
+}
+fas fa-utensils{
+    width: 100px;
+    height: 100px;
+    border: 0;
+}
+.h3{
+    text-align: center;
+}
+green_curry{
+    display:inline-block;
+}
+grilled_cheese{
+    display: inline-block;
+}
